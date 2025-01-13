@@ -5,7 +5,8 @@ import './index.css';
 // import Hello from './components/Hello';
 // import Name from './components/Name';
 // import Message from './components/Message';
-import Parent from './components/ContainerSample';
+// import Parent from './components/ContainerSample';
+import Page from './components/ContextSample';
 import reportWebVitals from './reportWebVitals';
 
 // const root = ReactDOM.createRoot(
@@ -22,7 +23,7 @@ if (rootElement) {
   const root = ReactDOM.createRoot(rootElement);
   root.render(
     <React.StrictMode>
-      <Parent />
+      <Page />
     </React.StrictMode>
   );
 }
